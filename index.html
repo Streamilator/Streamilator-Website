@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Streamilator | Home</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="https://svelte.streamilator.tk/assets/home.f0968183.svg">
+    <style>
+      body {
+        font-family: 'Roboto', sans-serif;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        background: linear-gradient(to right, #33aafa, #fe4e85);
+        color: white;
+        overflow: hidden;
+      }
+      h1 {
+        font-size: 48px;
+      }
+      p {
+        font-size: 24px;
+      }
+      p.small {
+        font-size: 16px;
+      }
+      a {
+        font-family: 'Roboto', sans-serif;
+        font-size: 18px;
+        border: none;
+        color: white;
+        padding: 12px 24px;
+        text-align: center;
+        text-decoration: none;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 4px 2px;
+        cursor: pointer;
+        border-radius: 4px;
+      }
+      .multi-color {
+        background: linear-gradient(90deg, #ff4136 0%, #2ecc40 25%, #ffdc00 50%, #0074d9 75%, #ff4136 100%);
+      }
+      a i {
+        margin-right: 5px;
+      }
+      .github-icon {
+        color: white;
+        font-size: 18px;
+        margin-right: 5px;
+      }
+      .github-button, .launch-button, .talk-button {
+        background: linear-gradient(90deg, #6e5494 0%, #7e4f6e 25%, #99545d 50%, #8c6b98 75%, #6e5494 100%);
+      }
+      .launch-button, .talk-button {
+        background: linear-gradient(to right, #33aafa, #fe4e85);
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Streamilator</h1>
+    <p>Welcome to the Streamilator Website</p>
+    <div>
+      <a href="https://github.com/Streamilator" class="github-button">
+        <i class="fab fa-github github-icon"></i> GitHub
+      </a>
+      <a href="https://beta.streamilator.tk" class="launch-button">
+        <i class="fas fa-rocket github-icon"></i> Launch
+      </a>
+      <a href="https://svelte.streamilator.tk" class="talk-button">
+        <i class="fas fa-comments github-icon"></i> Talk (Beta)
+      </a>
+    </div>
+    <script src="https://kit.fontawesome.com/yourcode.js"></script>
+    <div class="icon-grid"></div>
+  </body>
+</html>
